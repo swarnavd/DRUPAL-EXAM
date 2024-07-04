@@ -1,0 +1,34 @@
+uuid: 0854715f-173a-463a-922d-b452c074c21b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quote_and_banner
+    - node.type.product
+    - paragraphs.paragraphs_type.quote_and_banner
+  module:
+    - entity_reference_revisions
+id: node.product.field_quote_and_banner
+field_name: field_quote_and_banner
+entity_type: node
+bundle: product
+label: 'Quote and banner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      quote_and_banner: quote_and_banner
+    negate: 0
+    target_bundles_drag_drop:
+      our_partners:
+        weight: 3
+        enabled: false
+      quote_and_banner:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

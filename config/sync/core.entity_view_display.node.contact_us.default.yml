@@ -1,0 +1,19 @@
+uuid: 3e1b534f-6500-44b0-91ea-a988fa00eecd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contact_us
+  module:
+    - user
+id: node.contact_us.default
+targetEntityType: node
+bundle: contact_us
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
