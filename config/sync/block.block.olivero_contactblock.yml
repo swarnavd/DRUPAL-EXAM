@@ -1,0 +1,25 @@
+uuid: 07b7e5ad-adc8-4a4c-881c-7c37123eabae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:903d7f5d-30a8-450c-a38c-388413238364'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_contactblock
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:903d7f5d-30a8-450c-a38c-388413238364'
+settings:
+  id: 'block_content:903d7f5d-30a8-450c-a38c-388413238364'
+  label: 'Contact Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

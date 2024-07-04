@@ -1,0 +1,35 @@
+uuid: 56bb7be1-8d5e-40a1-8613-be28f4d04ead
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quote_and_banner.field_banner
+    - field.field.paragraph.quote_and_banner.field_quote
+    - paragraphs.paragraphs_type.quote_and_banner
+  module:
+    - image
+id: paragraph.quote_and_banner.default
+targetEntityType: paragraph
+bundle: quote_and_banner
+mode: default
+content:
+  field_banner:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_quote:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

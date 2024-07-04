@@ -1,0 +1,26 @@
+uuid: 0f110272-6af8-4700-a731-db8a87f226a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_footer
+  theme:
+    - olivero
+id: olivero_copyrightfooter
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: Shopsy
+  organization_url: 'https://training.shopsy.com/'
+  year_origin: 2024
+  year_to_date: null
+  version: ''
+  version_url: ''
+visibility: {  }

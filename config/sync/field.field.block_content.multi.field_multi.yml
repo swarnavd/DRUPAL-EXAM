@@ -1,0 +1,37 @@
+uuid: f169eaf5-7641-4870-ae95-8df10e959ba1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multi
+    - field.storage.block_content.field_multi
+    - paragraphs.paragraphs_type.multiimage_banner
+  module:
+    - entity_reference_revisions
+id: block_content.multi.field_multi
+field_name: field_multi
+entity_type: block_content
+bundle: multi
+label: multi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      multiimage_banner: multiimage_banner
+    negate: 0
+    target_bundles_drag_drop:
+      multiimage_banner:
+        weight: 4
+        enabled: true
+      our_partners:
+        weight: 5
+        enabled: false
+      quote_and_banner:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

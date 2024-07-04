@@ -1,0 +1,25 @@
+uuid: a314447b-627d-48fb-9a57-ceaab4a8a4c7
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/split/dev
+module:
+  webform_ui: 0
+theme: {  }
+complete_list:
+  - devel.settings
+  - devel.toolbar.settings
+  - system.site
+  - webform.webform_options.relationship
+  - webform.webform_options.sex
+  - webform.webform_options.sex_icao
+  - webform.webform_options.state_names
+  - webform.webform_options.state_province_codes
+partial_list: {  }

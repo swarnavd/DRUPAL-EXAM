@@ -1,0 +1,24 @@
+uuid: 0697bbb5-8269-4af3-aadd-26edd75bd221
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multi
+    - field.field.block_content.multi.field_multi
+  module:
+    - entity_reference_revisions
+id: block_content.multi.default
+targetEntityType: block_content
+bundle: multi
+mode: default
+content:
+  field_multi:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 5dec7d1e-8390-4b9e-ae4b-90dd08221749
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:multi:90505abe-df21-4aad-aa95-cfffda477ad2'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_multiimagebanner
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:90505abe-df21-4aad-aa95-cfffda477ad2'
+settings:
+  id: 'block_content:90505abe-df21-4aad-aa95-cfffda477ad2'
+  label: 'Multi image banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

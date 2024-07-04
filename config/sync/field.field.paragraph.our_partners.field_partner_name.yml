@@ -1,0 +1,19 @@
+uuid: 314b6b40-2130-4072-8167-60c05d3d9d2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_partner_name
+    - paragraphs.paragraphs_type.our_partners
+id: paragraph.our_partners.field_partner_name
+field_name: field_partner_name
+entity_type: paragraph
+bundle: our_partners
+label: 'Partner name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

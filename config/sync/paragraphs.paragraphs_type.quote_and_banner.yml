@@ -1,0 +1,10 @@
+uuid: c30f0fd9-f2a4-4977-bcff-2878636a705d
+langcode: en
+status: true
+dependencies: {  }
+id: quote_and_banner
+label: 'Quote and banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

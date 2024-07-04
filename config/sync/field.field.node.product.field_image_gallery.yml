@@ -1,0 +1,38 @@
+uuid: 737a8305-49c1-4235-922a-b610e0d5fcd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_gallery
+    - node.type.product
+  module:
+    - image
+id: node.product.field_image_gallery
+field_name: field_image_gallery
+entity_type: node
+bundle: product
+label: 'Image gallery'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

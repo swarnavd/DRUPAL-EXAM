@@ -1,0 +1,36 @@
+uuid: ae1297f2-5e80-4578-a790-7208c35880b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_partners.field_partner_image
+    - field.field.paragraph.our_partners.field_partner_name
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.our_partners
+  module:
+    - image
+id: paragraph.our_partners.default
+targetEntityType: paragraph
+bundle: our_partners
+mode: default
+content:
+  field_partner_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_partner_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

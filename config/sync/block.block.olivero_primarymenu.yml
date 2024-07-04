@@ -1,0 +1,29 @@
+uuid: 3d2547e6-c14c-48f2-856e-5b1c03e84f0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_primarymenu
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:primary-menu'
+settings:
+  id: 'system_menu_block:primary-menu'
+  label: 'primary menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
